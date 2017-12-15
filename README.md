@@ -6,7 +6,7 @@ Built with Google's Civic Info API, which also handles address validation.
 
 
 ## Examples
-Cities and states are valid addresses, but will not display more local representatives.
+Cities and states are valid addresses, but will not display more local representatives.  
 <img src="https://user-images.githubusercontent.com/5431678/34021698-87b322e2-e13b-11e7-905c-d26eea34422e.png"
 	height="350px" />
 
