@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivRepPhoto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:civ_border_width="4dp"
+            app:civ_border_color="#a4a4a4"
+            android:layout_marginEnd="16dp"
+            android:src="@mipmap/ic_launcher"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRepTitle"
+        android:hint="@string/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/tvParty"
+        android:hint="@string/party"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:hint="@string/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tvPhone"
+        android:hint="@string/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tvUrl"
+        android:hint="@string/website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+</LinearLayout>

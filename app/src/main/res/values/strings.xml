@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Civic</string>
+    <string name="title_activity_representative_details">Representative Details</string>
+    <string name="txt_about">Civic Info made by Junhao Dong</string>
+
+    <string name="civic_api_url">https://www.googleapis.com/civicinfo/v2/</string>
+
+    <string name="about">About</string>
+    <string name="submit">Submit</string>
+    <string name="address">Address</string>
+    <string name="title">Title</string>
+    <string name="party">Party</string>
+    <string name="phone">Phone</string>
+    <string name="website">Website</string>
+    <string name="titleHint">President of the United States</string>
+    <string name="nameHint">Barack Obama</string>
+
+</resources>
